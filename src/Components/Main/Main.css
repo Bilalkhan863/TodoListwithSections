@@ -1,0 +1,12 @@
+.list-row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: 
+    #eaeaec;
+    margin: 5px;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 10px;
+}

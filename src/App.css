@@ -1,38 +1,62 @@
 .App {
-  text-align: center;
+  background-color: #eaeaec;
+  margin: 20px 30px;
+  padding: 0 20px 20px 20px;
+  
+  border-radius: 30px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.create-list-area{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px;
+  width: 20%;
+  margin-left: auto ;
+  
+}
+.create-list-btn{
+  margin-top: 5px;
+  padding: 15px 22px;
+  
+  border: 2px solid #ada1c4;
+  border-radius: 50%;
+  color: #ada1c4;
+  cursor: pointer;
+  
+}
+.create-list-btn:hover{
+  background-color: #ada1c4;
+  color: #fff;
+}
+.create-list-area h4{
+  color: #c0bacd;
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 700px) {
+  .create-list-area{
+    width: 40%;
+   
+  } 
+  .create-list-btn{
+    padding: 7px 15px;
+    
+    border: 1px solid #ada1c4;
+    
+    
+  }
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 550px) {
+  .App {
+    background-color: #eaeaec;
+    margin: 10px 5px;
+    padding: 0 5px 5px 10px;
+    
+    border-radius: 15px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  .create-list-area{
+    width: 40%;
+    margin-right: 20px;
+    gap: 10px;
+   
+  } 
+ 
 }

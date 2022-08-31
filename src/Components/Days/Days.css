@@ -1,0 +1,76 @@
+.day-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 93%;
+    margin: 10px auto;
+    /* border: 1px solid black; */
+    
+}
+li {
+    list-style: none;
+}
+.day-date{
+    width: 130px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px 20px 15px;
+    color: #fff;
+    background: 
+    #e3c362;
+    /* background: linear-gradient(150deg, rgba(255,199,102,1) 0%, rgba(255,248,0,1) 100%); */
+   /* border-top-right-radius: 15px;
+   border-bottom-left-radius: 15px; */
+   
+   border-right: 1px solid 
+   #eaeaec;
+   position: relative;
+}
+.drop-down h4{ 
+    position: absolute;
+    top: 1px;
+    right: -1px;
+    
+    
+    transform: rotate(90deg);
+}
+.drop-down:hover{
+    cursor: pointer;
+
+}
+.drop-down-list{
+    /* transform: rotateX(90deg); */
+    margin-top: 3px;
+    margin-right: 3px;
+    padding: 1px 3px;
+    background-color: #fff;
+    color: black;
+   
+}
+
+.transparent{
+    background: blueviolet;
+}
+
+.color{
+    background-color: brown;
+}
+
+@media screen and (max-width: 500px) {
+    .day-row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 98%;
+        margin: 5px auto;
+        /* border: 1px solid black; */
+        
+    }
+    .day-date{
+        width: 100px;
+        display: flex;
+        padding: 20px 10px 10px 10px;
+    }
+    
+}
